@@ -1,0 +1,1534 @@
+{
+    "user": {
+        "account_type": "user", 
+        "bio": "", 
+        "checkins": {
+            "count": 15, 
+            "items": [
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 5.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-421386_2ac47_sm.jpeg", 
+                        "beer_name": "Mosaic Promise", 
+                        "beer_slug": "founders-brewing-co-mosaic-promise", 
+                        "beer_style": "Pale Ale - American", 
+                        "bid": 421386, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 549, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg", 
+                        "brewery_name": "Founders Brewing Co.", 
+                        "brewery_slug": "founders-brewing-co", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/foundersbrewing", 
+                            "instagram": "foundersbrewing", 
+                            "twitter": "foundersbrewing", 
+                            "url": "http://www.foundersbrewing.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Grand Rapids", 
+                            "brewery_state": "MI", 
+                            "lat": 42.9585, 
+                            "lng": -85.6735
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 341463719, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Fri, 29 Jul 2016 00:01:41 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.5, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "You\u2019ve pledged allegiance, and now it\u2019s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That\u2019s 80 different beers from a brewery in the United States. Try 5 more for Level 17.", 
+                                "badge_id": 2002, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_america_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_america_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_america_sm.jpg"
+                                }, 
+                                "badge_name": "Land of the Free  (Level 16)", 
+                                "created_at": "Sat, 23 Jul 2016 22:23:48 +0000", 
+                                "user_badge_id": 127906649
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 7.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-25796_43b95_sm.jpeg", 
+                        "beer_name": "A Little Sumpin' Sumpin' Ale", 
+                        "beer_slug": "lagunitas-brewing-company-a-little-sumpin-sumpin-ale", 
+                        "beer_style": "Pale Wheat Ale - American", 
+                        "bid": 25796, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 765, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-765_14837.jpeg", 
+                        "brewery_name": "Lagunitas Brewing Company", 
+                        "brewery_slug": "lagunitas-brewing-company", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/LagunitasBrewingCo", 
+                            "instagram": "lagunitasbeer", 
+                            "twitter": "lagunitasbeer", 
+                            "url": "http://www.LAGUNITAS.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Petaluma", 
+                            "brewery_state": "CA", 
+                            "lat": 38.2724, 
+                            "lng": -122.662
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 339677200, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sat, 23 Jul 2016 22:23:48 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.5, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "Round and round the wheel goes! Which style you\u2019ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up!", 
+                                "badge_id": 5115, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg"
+                                }, 
+                                "badge_name": "Wheel of Styles", 
+                                "created_at": "Tue, 19 Jul 2016 01:18:01 +0000", 
+                                "user_badge_id": 127085864
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 7.2, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-FoundersCentinalIPA.jpg", 
+                        "beer_name": "Centennial IPA", 
+                        "beer_slug": "founders-brewing-co-centennial-ipa", 
+                        "beer_style": "IPA - American", 
+                        "bid": 1456, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 549, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg", 
+                        "brewery_name": "Founders Brewing Co.", 
+                        "brewery_slug": "founders-brewing-co", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/foundersbrewing", 
+                            "instagram": "foundersbrewing", 
+                            "twitter": "foundersbrewing", 
+                            "url": "http://www.foundersbrewing.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Grand Rapids", 
+                            "brewery_state": "MI", 
+                            "lat": 42.9585, 
+                            "lng": -85.6735
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 337738762, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Tue, 19 Jul 2016 01:18:01 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.5, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-673100_b8e51_sm.jpeg", 
+                        "beer_name": "The Carhartt Woodsman", 
+                        "beer_slug": "new-holland-brewing-company-the-carhartt-woodsman", 
+                        "beer_style": "Pale Ale - American", 
+                        "bid": 673100, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 908, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-NewHollandBrewingCompany_908.jpeg", 
+                        "brewery_name": "New Holland Brewing Company", 
+                        "brewery_slug": "new-holland-brewing-company", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/pages/New-Holland-Brewing-Co/13765181660", 
+                            "instagram": "NewHollandBrew", 
+                            "twitter": "NewHollandBrew", 
+                            "url": "http://newhollandbrew.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Holland", 
+                            "brewery_state": "MI", 
+                            "lat": 42.79, 
+                            "lng": -86.1041
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 337034817, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 17 Jul 2016 02:31:57 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.25, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 11, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1605758_98939_sm.jpeg", 
+                        "beer_name": "Dragons Milk Reserve Raspberry Lemon", 
+                        "beer_slug": "new-holland-brewing-company-dragons-milk-reserve-raspberry-lemon", 
+                        "beer_style": "Stout - American Imperial / Double", 
+                        "bid": 1605758, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 908, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-NewHollandBrewingCompany_908.jpeg", 
+                        "brewery_name": "New Holland Brewing Company", 
+                        "brewery_slug": "new-holland-brewing-company", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/pages/New-Holland-Brewing-Co/13765181660", 
+                            "instagram": "NewHollandBrew", 
+                            "twitter": "NewHollandBrew", 
+                            "url": "http://newhollandbrew.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Holland", 
+                            "brewery_state": "MI", 
+                            "lat": 42.79, 
+                            "lng": -86.1041
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 337014294, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 17 Jul 2016 02:03:36 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4.75, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 2, 
+                        "items": [
+                            {
+                                "badge_description": "Nice job exploring the world of beer. You've sampled over 100 different brews!", 
+                                "badge_id": 4, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_check100_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_check100_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_check100_sm.jpg"
+                                }, 
+                                "badge_name": "Artisan", 
+                                "created_at": "Thu, 14 Jul 2016 22:22:05 +0000", 
+                                "user_badge_id": 126255791
+                            }, 
+                            {
+                                "badge_description": "It's New Brew Thursday! Drink a new beer on three Thursdays in a 30 day period! Find out how <a href=\"http://newbrewthursday.com\" rel=\"link-out\">New Brew Thursday</a> was started, and catch up on old episodes.", 
+                                "badge_id": 55, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_nbt_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_nbt_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_nbt_sm.jpg"
+                                }, 
+                                "badge_name": "New Brew Thursday", 
+                                "created_at": "Thu, 14 Jul 2016 22:22:05 +0000", 
+                                "user_badge_id": 126255792
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 5.8, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-16581_b3bbb_sm.jpeg", 
+                        "beer_name": "Oberon Ale", 
+                        "beer_slug": "bell-s-brewery-inc-oberon-ale", 
+                        "beer_style": "Pale Wheat Ale - American", 
+                        "bid": 16581, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 2507, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BellsBreweryInc_2507.jpeg", 
+                        "brewery_name": "Bell's Brewery", 
+                        "brewery_slug": "bells-brewery", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/BellsBreweryInc", 
+                            "instagram": "bellsbrewery", 
+                            "twitter": "BellsBrewery", 
+                            "url": "http://www.bellsbeer.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Galesburg", 
+                            "brewery_state": "MI", 
+                            "lat": 42.2917, 
+                            "lng": -85.5872
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 335700618, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Thu, 14 Jul 2016 22:22:05 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.5, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "You\u2019ve pledged allegiance, and now it\u2019s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That\u2019s 75 different beers from a brewery in the United States. Try 5 more for Level 16.", 
+                                "badge_id": 2001, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_america_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_america_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_america_sm.jpg"
+                                }, 
+                                "badge_name": "Land of the Free  (Level 15)", 
+                                "created_at": "Tue, 12 Jul 2016 00:20:42 +0000", 
+                                "user_badge_id": 125913733
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-144918_2b74f_sm.jpeg", 
+                        "beer_name": "Samuel Adams Porch Rocker", 
+                        "beer_slug": "boston-beer-company-samuel-adams-samuel-adams-porch-rocker", 
+                        "beer_style": "Radler", 
+                        "bid": 144918, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334888748, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Tue, 12 Jul 2016 00:20:42 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.75, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.4, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-BigWaveGoldenAle_9657.jpeg", 
+                        "beer_name": "Big Wave Golden Ale", 
+                        "beer_slug": "kona-brewing-company-big-wave-golden-ale", 
+                        "beer_style": "Golden Ale", 
+                        "bid": 9657, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 1988, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-konabrewingcompany_1988.jpeg", 
+                        "brewery_name": "Kona Brewing Company", 
+                        "brewery_slug": "kona-brewing-company", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/KonaBrewingCo", 
+                            "instagram": "konabrewingco", 
+                            "twitter": "KonaBrewingCo", 
+                            "url": "http://konabrewingco.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Kailua-Kona", 
+                            "brewery_state": "HI", 
+                            "lat": 19.64, 
+                            "lng": -155.997
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334698551, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Mon, 11 Jul 2016 02:24:16 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.75, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.8, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1459424_d34f6_sm.jpeg", 
+                        "beer_name": "Got To Gose", 
+                        "beer_slug": "boston-beer-company-samuel-adams-got-to-gose", 
+                        "beer_style": "Gose", 
+                        "bid": 1459424, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334195043, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 10 Jul 2016 01:55:21 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "After a long day, what better way to kick back than with a crisp and refreshing lager? You're already feeling more relaxed, aren't you? That's 10 different Lagers! Try 5 more to unlock Level 3.", 
+                                "badge_id": 278, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_LagerJack_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_LagerJack_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_LagerJack_sm.jpg"
+                                }, 
+                                "badge_name": "Lager Jack (Level 2)", 
+                                "created_at": "Sun, 10 Jul 2016 01:54:30 +0000", 
+                                "user_badge_id": 125640983
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1459024_13359_sm.jpeg", 
+                        "beer_name": "Samuel Adams Heaven Or Helles", 
+                        "beer_slug": "boston-beer-company-samuel-adams-samuel-adams-heaven-or-helles", 
+                        "beer_style": "Lager - Helles", 
+                        "bid": 1459024, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334194487, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 10 Jul 2016 01:54:30 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4.25, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "Ahh, the trusty pale ale; crisp, refreshing, and always a good choice in a bind. That's 5 different Pale Ales. Try 5 more for Level 2.", 
+                                "badge_id": 185, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_PaleMoon_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_PaleMoon_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg"
+                                }, 
+                                "badge_name": "Pale as the Moon", 
+                                "created_at": "Sun, 10 Jul 2016 01:54:02 +0000", 
+                                "user_badge_id": 125640807
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.3, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-SamuelAdamsBelgianSession_120273.jpeg", 
+                        "beer_name": "Samuel Adams Belgian Session", 
+                        "beer_slug": "boston-beer-company-samuel-adams-samuel-adams-belgian-session", 
+                        "beer_style": "Pale Ale - Belgian", 
+                        "bid": 120273, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334194068, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 10 Jul 2016 01:54:02 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "You\u2019ve pledged allegiance, and now it\u2019s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That\u2019s 70 different beers from a brewery in the United States. Try 5 more for Level 15.", 
+                                "badge_id": 2000, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_america_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_america_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_america_sm.jpg"
+                                }, 
+                                "badge_name": "Land of the Free  (Level 14)", 
+                                "created_at": "Sun, 10 Jul 2016 01:53:35 +0000", 
+                                "user_badge_id": 125640666
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 4.9, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-3914_487c1_sm.jpeg", 
+                        "beer_name": "Samuel Adams Boston Lager", 
+                        "beer_slug": "boston-beer-company-samuel-adams-samuel-adams-boston-lager", 
+                        "beer_style": "Lager - Vienna / Amber", 
+                        "bid": 3914, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 334193682, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 10 Jul 2016 01:53:35 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 5.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-_3916_sm_2a69f4a012bc330ad111bc2e508cc6.jpeg", 
+                        "beer_name": "Samuel Adams Summer Ale", 
+                        "beer_slug": "boston-beer-company-samuel-adams-samuel-adams-summer-ale", 
+                        "beer_style": "Pale Wheat Ale - American", 
+                        "bid": 3916, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 157, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-157_6026f.jpeg", 
+                        "brewery_name": "Boston Beer Company (Samuel Adams)", 
+                        "brewery_slug": "boston-beer-company-samuel-adams", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/SamuelAdams", 
+                            "instagram": "samueladamsbeer", 
+                            "twitter": "SamuelAdamsBeer", 
+                            "url": "http://www.samueladams.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Boston", 
+                            "brewery_state": "MA", 
+                            "lat": 42.3144, 
+                            "lng": -71.1034
+                        }
+                    }, 
+                    "checkin_comment": "Nur also liked this", 
+                    "checkin_id": 334193359, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Sun, 10 Jul 2016 01:53:12 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 4, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 1, 
+                        "items": [
+                            {
+                                "badge_description": "Load up those hops, watch the IBU grow and drink it down! Now you\u2019re all hopped up. The more bitter, the better. That's 15 different beers with an IBU of 65 or higher. Try 5 more for Level 4!", 
+                                "badge_id": 3360, 
+                                "badge_image": {
+                                    "lg": "https://untappd.akamaized.net/badges/bdg_HoppedUp_lg.jpg", 
+                                    "md": "https://untappd.akamaized.net/badges/bdg_HoppedUp_md.jpg", 
+                                    "sm": "https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg"
+                                }, 
+                                "badge_name": "Hopped Up (Level 3)", 
+                                "created_at": "Thu, 07 Jul 2016 05:24:58 +0000", 
+                                "user_badge_id": 125048234
+                            }
+                        ]
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 7, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-5977_f8c50_sm.jpeg", 
+                        "beer_name": "Cane and Ebel", 
+                        "beer_slug": "two-brothers-brewing-company-cane-and-ebel", 
+                        "beer_style": "Rye Beer / Rye IPA", 
+                        "bid": 5977, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 1298, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-1298_ea7cf.jpeg", 
+                        "brewery_name": "Two Brothers Brewing Company", 
+                        "brewery_slug": "two-brothers-brewing-company", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/TwoBrothersBrewing?ref=nf", 
+                            "instagram": "twobrothersbrewingcompany", 
+                            "twitter": "twobrothersbeer", 
+                            "url": "http://www.twobrosbrew.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Warrenville", 
+                            "brewery_state": "IL", 
+                            "lat": 41.8243, 
+                            "lng": -88.2123
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 332780745, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Thu, 07 Jul 2016 05:24:58 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.75, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }, 
+                {
+                    "badges": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "beer": {
+                        "auth_rating": 0, 
+                        "beer_abv": 8.5, 
+                        "beer_active": 1, 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-LochDown_20969.jpeg", 
+                        "beer_name": "Loch Down Scotch Ale", 
+                        "beer_slug": "arcadia-brewing-company-arcadia-ales-loch-down-scotch-ale", 
+                        "beer_style": "Scotch Ale / Wee Heavy", 
+                        "bid": 20969, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 47, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-47_b355b.jpeg", 
+                        "brewery_name": "Arcadia Brewing Company (Arcadia Ales)", 
+                        "brewery_slug": "arcadia-brewing-company-arcadia-ales", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/arcadiaales", 
+                            "instagram": "arcadiaales", 
+                            "twitter": "ArcadiaAles", 
+                            "url": "http://www.arcadiaales.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Kalamazoo", 
+                            "brewery_state": "MI", 
+                            "lat": 42.2953, 
+                            "lng": -85.5713
+                        }
+                    }, 
+                    "checkin_comment": "", 
+                    "checkin_id": 332780681, 
+                    "comments": {
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "created_at": "Thu, 07 Jul 2016 05:24:15 +0000", 
+                    "media": {
+                        "count": 0, 
+                        "items": []
+                    }, 
+                    "rating_score": 3.75, 
+                    "source": {
+                        "app_name": "Untappd for Android - (V2)", 
+                        "app_website": "http://untpd.it/androidapp"
+                    }, 
+                    "toasts": {
+                        "auth_toast": null, 
+                        "count": 0, 
+                        "items": [], 
+                        "total_count": 0
+                    }, 
+                    "user": {
+                        "bio": "", 
+                        "contact": {
+                            "facebook": "10154012941532878"
+                        }, 
+                        "first_name": "onur", 
+                        "is_private": 0, 
+                        "is_supporter": 0, 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "relationship": null, 
+                        "uid": 2927509, 
+                        "url": "", 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }
+            ]
+        }, 
+        "contact": {
+            "facebook": "10154012941532878"
+        }, 
+        "date_joined": "Wed, 23 Dec 2015 17:11:20 +0000", 
+        "first_name": "onur", 
+        "id": 2927509, 
+        "is_private": 0, 
+        "is_supporter": 0, 
+        "last_name": "v.", 
+        "location": "", 
+        "media": {
+            "count": 1, 
+            "items": [
+                {
+                    "beer": {
+                        "auth_rating": 4.5, 
+                        "beer_abv": 6.8, 
+                        "beer_description": "Belgian Wit meets American IPA. Medium dry bodied hazy yellow ale. Spiced with Lemongrass and Orange peel. Fruity esters from the yeast interplay with aromas of American hops.", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-320456_4a07f_sm.jpeg", 
+                        "beer_name": "White Reaper", 
+                        "beer_style": "IPA - Belgian", 
+                        "bid": 320456, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 32392, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-32392_d1b2a.jpeg", 
+                        "brewery_name": "Evil Czech Brewery", 
+                        "brewery_slug": "evil-czech-brewery", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/ecbpublichouse", 
+                            "instagram": "evilczechbrewery", 
+                            "twitter": "evilczech", 
+                            "url": "http://www.evilczechbrewery.com"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Mishawaka", 
+                            "brewery_state": "IN", 
+                            "lat": 41.6944, 
+                            "lng": -86.1818
+                        }
+                    }, 
+                    "checkin_id": 285285225, 
+                    "created_at": "Mon, 07 Mar 2016 02:33:39 +0000", 
+                    "photo": {
+                        "photo_img_lg": "https://untappd.akamaized.net/photo/2016_03_07/0a121fff5008162e442205cb3767d412_640x640.jpg", 
+                        "photo_img_md": "https://untappd.akamaized.net/photo/2016_03_07/0a121fff5008162e442205cb3767d412_320x320.jpg", 
+                        "photo_img_og": "https://untappd.akamaized.net/photo/2016_03_07/0a121fff5008162e442205cb3767d412_raw.jpg", 
+                        "photo_img_sm": "https://untappd.akamaized.net/photo/2016_03_07/0a121fff5008162e442205cb3767d412_100x100.jpg"
+                    }, 
+                    "photo_id": 68651384, 
+                    "user": {
+                        "account_type": "user", 
+                        "bio": "", 
+                        "first_name": "onur", 
+                        "last_name": "v.", 
+                        "location": "", 
+                        "uid": 2927509, 
+                        "url": null, 
+                        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+                        "user_name": "ovarol"
+                    }, 
+                    "venue": []
+                }
+            ]
+        }, 
+        "recent_brews": {
+            "count": 5, 
+            "items": [
+                {
+                    "beer": {
+                        "auth_rating": 3.5, 
+                        "beer_abv": 5.5, 
+                        "beer_description": "Mosaic Promise showcases two unique ingredients: Mosaic hops and Golden Promise malt. The versatility of the hop\u2019s pleasing aroma and flavor characteristics and the traditional barley\u2019s depth of flavor comprise this clean, rich, golden beer. We can brew complex beers with the best of them, but we recognize that there is also beauty in simplicity.", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-421386_2ac47_sm.jpeg", 
+                        "beer_name": "Mosaic Promise", 
+                        "beer_style": "Pale Ale - American", 
+                        "bid": 421386, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 549, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg", 
+                        "brewery_name": "Founders Brewing Co.", 
+                        "brewery_slug": "founders-brewing-co", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/foundersbrewing", 
+                            "instagram": "foundersbrewing", 
+                            "twitter": "foundersbrewing", 
+                            "url": "http://www.foundersbrewing.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Grand Rapids", 
+                            "brewery_state": "MI", 
+                            "lat": 42.9585, 
+                            "lng": -85.6735
+                        }
+                    }
+                }, 
+                {
+                    "beer": {
+                        "auth_rating": 3.5, 
+                        "beer_abv": 7.5, 
+                        "beer_description": "A truly unique style featuring a strong hop finish on a silky body. A filtered pale wheat ale that is great for both IPA and wheat beer fans.\n", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-25796_43b95_sm.jpeg", 
+                        "beer_name": "A Little Sumpin' Sumpin' Ale", 
+                        "beer_style": "Pale Wheat Ale - American", 
+                        "bid": 25796, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 765, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-765_14837.jpeg", 
+                        "brewery_name": "Lagunitas Brewing Company", 
+                        "brewery_slug": "lagunitas-brewing-company", 
+                        "contact": {
+                            "facebook": "https://www.facebook.com/LagunitasBrewingCo", 
+                            "instagram": "lagunitasbeer", 
+                            "twitter": "lagunitasbeer", 
+                            "url": "http://www.LAGUNITAS.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Petaluma", 
+                            "brewery_state": "CA", 
+                            "lat": 38.2724, 
+                            "lng": -122.662
+                        }
+                    }
+                }, 
+                {
+                    "beer": {
+                        "auth_rating": 3.5, 
+                        "beer_abv": 7.2, 
+                        "beer_description": "Selected as a benchmark for the Beer Judge Certification Program used in all American based beer judgings. Centennial IPA has quickly become the IPA of choice. Pour yourself a pint of this complex flavorful ale and bask in the frothy head's floral bouquet. Relish the immense citrus accents, achieved by the abundance of dry hopping. This ale's sweet, malty undertones balance the hop character with a finish that never turns too bitter.", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-FoundersCentinalIPA.jpg", 
+                        "beer_name": "Centennial IPA", 
+                        "beer_style": "IPA - American", 
+                        "bid": 1456, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 549, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-foundersbrewingcompany_549.jpeg", 
+                        "brewery_name": "Founders Brewing Co.", 
+                        "brewery_slug": "founders-brewing-co", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/foundersbrewing", 
+                            "instagram": "foundersbrewing", 
+                            "twitter": "foundersbrewing", 
+                            "url": "http://www.foundersbrewing.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Grand Rapids", 
+                            "brewery_state": "MI", 
+                            "lat": 42.9585, 
+                            "lng": -85.6735
+                        }
+                    }
+                }, 
+                {
+                    "beer": {
+                        "auth_rating": 3.25, 
+                        "beer_abv": 4.5, 
+                        "beer_description": "Michigan-grown Cascade hops bring a brightness to this barrel-aged American pale ale. Malt sweetness and toasted oak combine for a smooth, refreshing finish. This is the ideal session ale. It\u2019s perfect for those conversations that last longer than a pint. Pairings: Burgers, BBQ, and a job well done.", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-673100_b8e51_sm.jpeg", 
+                        "beer_name": "The Carhartt Woodsman", 
+                        "beer_style": "Pale Ale - American", 
+                        "bid": 673100, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 908, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-NewHollandBrewingCompany_908.jpeg", 
+                        "brewery_name": "New Holland Brewing Company", 
+                        "brewery_slug": "new-holland-brewing-company", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/pages/New-Holland-Brewing-Co/13765181660", 
+                            "instagram": "NewHollandBrew", 
+                            "twitter": "NewHollandBrew", 
+                            "url": "http://newhollandbrew.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Holland", 
+                            "brewery_state": "MI", 
+                            "lat": 42.79, 
+                            "lng": -86.1041
+                        }
+                    }
+                }, 
+                {
+                    "beer": {
+                        "auth_rating": 4.75, 
+                        "beer_abv": 11, 
+                        "beer_description": "", 
+                        "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1605758_98939_sm.jpeg", 
+                        "beer_name": "Dragons Milk Reserve Raspberry Lemon", 
+                        "beer_style": "Stout - American Imperial / Double", 
+                        "bid": 1605758, 
+                        "wish_list": false
+                    }, 
+                    "brewery": {
+                        "brewery_active": 1, 
+                        "brewery_id": 908, 
+                        "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-NewHollandBrewingCompany_908.jpeg", 
+                        "brewery_name": "New Holland Brewing Company", 
+                        "brewery_slug": "new-holland-brewing-company", 
+                        "contact": {
+                            "facebook": "http://www.facebook.com/pages/New-Holland-Brewing-Co/13765181660", 
+                            "instagram": "NewHollandBrew", 
+                            "twitter": "NewHollandBrew", 
+                            "url": "http://newhollandbrew.com/"
+                        }, 
+                        "country_name": "United States", 
+                        "location": {
+                            "brewery_city": "Holland", 
+                            "brewery_state": "MI", 
+                            "lat": 42.79, 
+                            "lng": -86.1041
+                        }
+                    }
+                }
+            ]
+        }, 
+        "relationship": null, 
+        "settings": [], 
+        "stats": {
+            "total_badges": 50, 
+            "total_beers": 105, 
+            "total_checkins": 107, 
+            "total_created_beers": 0, 
+            "total_followings": 5, 
+            "total_friends": 1, 
+            "total_photos": 1
+        }, 
+        "uid": 2927509, 
+        "untappd_url": "http://untappd.com/user/ovarol", 
+        "url": "", 
+        "user_avatar": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+        "user_avatar_hd": "https://gravatar.com/avatar/f0820407740d74046a6b1954f3c62e00?size=125&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1", 
+        "user_cover_photo": "https://untappd.akamaized.net/site/assets/v3/images/cover_default.jpg", 
+        "user_cover_photo_offset": 0, 
+        "user_name": "ovarol"
+    }
+}
