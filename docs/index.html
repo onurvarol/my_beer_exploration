@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Untappd beer data visualize">
+        <meta name="author" content="Onur Varol">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/typeaheadjs.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.sparkline.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jstree.min.js"></script>
+        <script src="js/underscore-min.js"></script>
+        <script src="js/bloodhound.min.js"></script>
+        <script src="js/typeahead.bundle.min.js"></script>
+        <script src="js/typeahead.jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
+        <link href="js/themes/default/style.min.css" rel="stylesheet" />
+
+        <title>Untappd beer data visualize</title>
+
+        <style>
+            /* Remove the navbar's default margin-bottom and rounded borders */
+            .navbar {
+              margin-bottom: 0;
+              border-radius: 0;
+            }
+            
+            /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+            .row.content {height: 450px}
+            
+            /* Set gray background color and 100% height */
+            .sidenav {
+              padding-top: 20px;
+              background-color: #f1f1f1;
+              height: 100%;
+            }
+
+            .google_map{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+
+            .beerButton{
+                width: 100%;
+                margin: 1px;
+            }
+
+            .beerDetail{
+                font-size: 75%;
+                line-height: 25%;
+                font-style: italic;
+            }
+
+            .beerTree{
+                text-align: left;   
+            }
+
+            #search-bar{
+                border-bottom: 1px solid #ccc;
+            }
+            
+            /* Set black background color, white text and some padding */
+            footer {
+              background-color: #555;
+              color: white;
+              padding: 15px;
+            }
+
+            div.well div {
+              max-height: 200px;
+              overflow-y: scroll;
+            }
+        
+            /* On small screens, set height to 'auto' for sidenav and grid */
+            @media screen and (max-width: 767px) {
+              .sidenav {
+                height: auto;
+                padding: 15px;
+              }
+              .row.content {height:auto;}
+            }
+        </style>
+
+        <script type="text/javascript">
+            var beerDict;
+            var breweryDict;
+            var brewTree;
+
+            var infowindow = new google.maps.InfoWindow();
+            var markerOptions = {icon: "images/beer_logo.png",
+                                 visible: false};
+            var map;
+            function drawMap(){
+                var center = new google.maps.LatLng(30, 0);
+                var mapOptions = {
+                    zoom: 5,
+                    center: center
+                };
+
+                map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+                google.maps.event.trigger(map, 'resize');
+                fillBeerMap();
+            };
+
+            function fillUserData(user){
+                var dJoin = user['date_joined'].split(" ").slice(1,4).join(" ");
+
+                divHtml = '<b>Username</b>: <a href="' + user['untappd_url'] + '" target="_blank">' + user['user_name'] + "</a><br/>";
+                divHtml += "<b>" + user['stats']['total_beers'] + "</b> beers tasted ";
+                divHtml += "from <b>" + Object.keys(breweryDict).length + "</b> distinct breweries since <i>" + dJoin + "</i>";
+
+                
+                var beerCount = _.groupBy(_.values(beerDict), function(beer) {
+                  return breweryDict[beer['brewery_id']]['brewery_name'];
+                });
+                var sortedCount = _.sortBy(beerCount);
+                sortedCount.reverse();
+
+                divHtml += "<br/><br/><b>Top breweries</b><br/>"
+                for(var i=0; i<5; i++){
+                    divHtml += breweryDict[sortedCount[i][0]['brewery_id']]['brewery_name'] + "<br/>";
+                    //divHtml += '<input class="btn btn-link" type="button" value="' + breweryDict[sortedCount[i][0]['brewery_id']]['brewery_name'] + '" onClick="showBeerDetails(\'' + sortedCount[i][0]['bid'] + '\')" />' + "<br/>";
+                }
+
+                // TODO: Add some user statistics here
+                /*abvArr = [];
+                ibuArr = [];
+                for (var key in beerDict){
+                    abvArr.push(beerDict[key]['beer_abv']);
+                    ibuArr.push(beerDict[key]['beer_ibu']);
+                }
+                console.log(abvArr);
+                console.log(ibuArr);*/
+
+                $("#user_details").html(divHtml);
+            };
+
+            function prepareBreweryBeerData(beers){
+                // return beer, brewery groups with key as id and details
+                // Also return brewery-> beer heirarchies onlt by Ids
+                beerDict = {};
+                breweryDict = {};
+                brewTree = {};
+
+                for (var i=0; i<beers.length; i++){
+                    //console.log(beers[i]['beer']['beer_slug']);
+                    beerDict[beers[i]['beer']['bid']] = beers[i]['beer'];
+                    beerDict[beers[i]['beer']['bid']]['my_score'] = beers[i]['rating_score'];
+                    beerDict[beers[i]['beer']['bid']]['brewery_id'] = beers[i]['brewery']['brewery_id']; 
+                    breweryDict[beers[i]['brewery']['brewery_id']] = beers[i]['brewery'];
+
+                    if (!(brewTree.hasOwnProperty(beers[i]['brewery']['brewery_id'])))
+                    {
+                        brewTree[beers[i]['brewery']['brewery_id']] = [];
+                    }
+                    brewTree[beers[i]['brewery']['brewery_id']].push(beers[i]['beer']['bid']);
+                    
+                }
+                console.log('Beer dict:' + Object.keys(beerDict).length);
+                console.log('Brewery dict:' + Object.keys(breweryDict).length);
+                //console.log(brewTree);
+
+                return {
+                    beers: beerDict,
+                    breweries: breweryDict,
+                    brewTree: brewTree
+                }
+            };
+
+            function showBeerDetails(beerId){
+                var beer = beerDict[beerId];
+                showBreweryDetails(beer['brewery_id']);
+
+                divHtml = '<img src="' + beer['beer_label'] + '" height="50"/><br/>'
+                divHtml += "<b>" + beer['beer_name'] + "</b><br/>";
+                divHtml += "(" + beer['beer_style'] + ")<br/>";
+                divHtml += "ABV: " + beer['beer_abv'] + " -- IBU: " + beer['beer_ibu'] + "<br/>";
+                divHtml += "My score: " + beer['my_score'] + " -- Avg. score: " + beer['rating_score'] + "<br/>"
+
+                divHtml += '<span class="beerDetail">' + beer['beer_description'] + "</span>";
+
+                $("#beer_details").html(divHtml);
+            };
+
+            function showBreweryDetails(breweryId){
+                $("#beer_details").html("");
+                var brewery = breweryDict[breweryId];
+                divHtml = '<img src="' + brewery['brewery_label'] + '" height="50"></img><br/>'
+                divHtml += "<b>" + brewery['brewery_name'] + "</b><br/>";
+
+                divHtml += '<div>';
+                for(var i=0; i<brewTree[brewery['brewery_id']].length; i++){
+                    var beer = beerDict[brewTree[brewery['brewery_id']][i]];
+                    divHtml += '<input class="beerButton btn btn-primary" type="button" value="' + beer['beer_name'] + '" onClick="showBeerDetails(\'' + beer['bid'] + '\')" />' + "<br/>";
+                    
+                }
+                divHtml += "</div>";
+
+                $("#brewery_details").html(divHtml);
+
+                var center = new google.maps.LatLng(brewery['location']['lat'],brewery['location']['lng']);
+                map.setCenter(center);
+                map.setZoom(10);
+            };
+
+            function fillBrewerTree(){
+                var treeData = [];
+                for (var key in brewTree){
+                    var brewery = breweryDict[key];
+                    var item = {};
+                    item['id'] = String(key);
+                    item['parent'] = '#';
+                    //item['text'] = brewery['brewery_name'];
+                    item['text'] = '<input class="btn btn-link" type="button" value="' + brewery['brewery_name'] + '" onClick="showBreweryDetails(\'' + brewery['brewery_id'] + '\')" />';
+                    treeData.push(item);
+                    for(var i=0; i<brewTree[key].length; i++){
+                        var beer = beerDict[brewTree[key][i]];
+                        var sItem = {};
+                        sItem['id'] = String(beer['bid']);
+                        sItem['parent'] = String(key);
+                        //sItem['text'] = beer['beer_name'];
+                        sItem['text'] = '<input class="btn btn-link" type="button" value="' + beer['beer_name'] + '" onClick="showBeerDetails(\'' + beer['bid'] + '\')" />';
+                        treeData.push(sItem);
+                    }
+                }
+                //console.log(treeData);
+                console.log('Brew tree data size ' + treeData.length);
+
+
+                $('#beer_tree').jstree({ 'core' : {
+                    'data' : treeData,
+                    "themes" : { "icons" : false }
+                } });
+            }
+
+            function fillBeerMap(){
+                var bounds = new google.maps.LatLngBounds();
+                for (var key in brewTree){
+                    var brewery = breweryDict[key];
+                    //console.log(brewery['brewery_name']);
+                    var marker;
+                    var latlon = location['lat-lon'];
+                    marker = new google.maps.Marker({
+                          icon: "images/beer_icon.png",
+                          position: new google.maps.LatLng(brewery['location']['lat'],brewery['location']['lng']),
+                          map: map
+                        });
+
+                    bounds.extend(marker.getPosition());
+                    google.maps.event.addListener(marker, 'click', (function(marker, brewery) {
+                        return function() {
+                            //console.log(brewery['brewery_name']);
+                            showBreweryDetails(brewery['brewery_id']);
+                        };
+                    })(marker, brewery));
+                }
+                map.fitBounds(bounds);
+            };
+
+            function initializeSearchBar(){
+
+                var beerBH = new Bloodhound({
+                  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('beer_name'),
+                  queryTokenizer: Bloodhound.tokenizers.whitespace,
+                  local: _.values(beerDict)
+                });
+                beerBH.initialize();
+
+                var breweryBH = new Bloodhound({
+                  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('brewery_name'),
+                  queryTokenizer: Bloodhound.tokenizers.whitespace,
+                  local: _.values(breweryDict)
+                });
+                beerBH.initialize();
+
+                $('#search-bar').typeahead({
+                      hint: true,
+                      highlight: true
+                    },
+                    {
+                      name: 'Beer',
+                      displayKey: 'beer_name',
+                      source: beerBH.ttAdapter(),
+                      templates: {
+                        header: '<b>Beer List</b>',
+                        empty: '<p>Unable to find</p>',
+                        suggestion: function(data) {
+                            return '<input class="beerButton btn btn-primary" type="button" value="' + data['beer_name'] + '" onClick="showBeerDetails(\'' + data['bid'] + '\')" />' 
+                        }
+                      }
+                    },
+                    {
+                      name: 'Brewery',
+                      displayKey: 'brewery_name',
+                      source: breweryBH.ttAdapter(),
+                      templates: {
+                        header: '<b>Brewery List</b>',
+                        empty: '<p>Unable to find</p>',
+                        suggestion: function(data) {
+                            return '<input class="beerButton btn btn-primary" type="button" value="' + data['brewery_name'] + '" onClick="showBreweryDetails(\'' + data['brewery_id'] + '\')" />'
+                        }
+                      }
+                    });
+
+                console.log('Search');
+            };
+
+            $(document).ready(function () {
+                var response = $.ajax({ type: 'GET',
+                                  url: 'data/ovarol_untappd_data.json',
+                                  dataType: 'text',
+                                  success: function(data) {
+                                    udata = data;
+                                  },
+                                  async: false
+                                }).responseText;
+                var userData = $.parseJSON(response)['user_data']['user'];
+                var beerData = $.parseJSON(response)['beer_data'];
+
+                datasets = prepareBreweryBeerData(beerData);
+
+                fillUserData(userData);
+                fillBrewerTree();
+                initializeSearchBar();
+
+                google.maps.event.addDomListener(window, 'load', drawMap);
+                $('#map-canvas').css('height', ($(window).height() - 75));
+            });
+
+        </script>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-7399107-2']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+        <!--<script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+        </script>-->
+
+    </head>
+
+<body style="background-color:#f1f1f1;">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images/beer_logo.png" height="42" width="42" style="margin-top:5px;">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <!--
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            -->
+            <div id="multiple-datasets" style="margin-top:10px;">
+                <input id="search-bar" class="form-control typeahead" type="text" placeholder="Beers and breweries">
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+    <div class="container-fluid text-center">
+      <div class="row content">
+        <div class="col-sm-3 sidenav">
+            
+            <div id="user_details" class="well">
+                Put user details tree here!
+            </div>
+
+            <div id="user_details" class="well">
+                <div id="beer_tree" class="beerTree">
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-6 text-left">
+            
+            <div id="map-canvas" class="google_map"></div>
+
+        </div>
+        <div class="col-sm-3 sidenav">
+            <div class="well">
+                <div id="brewery_details">
+                    Brewery details will be here!
+                </div>
+            </div>
+            <div class="well">
+                <div id="beer_details">
+                Beer details will be here!
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <footer class="container-fluid text-center">
+      <p>2016</p>
+    </footer>
+    -->
+
+</body>
+
+</html>

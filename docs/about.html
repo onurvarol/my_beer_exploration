@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Untappd beer data visualize">
+        <meta name="author" content="Onur Varol">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        <title>Untappd beer data visualize</title>
+
+        <style>
+            /* Remove the navbar's default margin-bottom and rounded borders */
+            .navbar {
+              margin-bottom: 0;
+              border-radius: 0;
+            }
+            
+            /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+            .row.content {height: 450px}
+            
+            /* Set gray background color and 100% height */
+            .sidenav {
+              padding-top: 20px;
+              background-color: #f1f1f1;
+              height: 100%;
+            }
+            
+            /* Set black background color, white text and some padding */
+            footer {
+              background-color: #555;
+              color: white;
+              padding: 15px;
+            }
+        
+            /* On small screens, set height to 'auto' for sidenav and grid */
+            @media screen and (max-width: 767px) {
+              .sidenav {
+                height: auto;
+                padding: 15px;
+              }
+              .row.content {height:auto;}
+            }
+        </style>
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-7399107-2']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+
+    </head>
+
+<body style="background-color:#f1f1f1;">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="images/beer_logo.png" height="42" width="42" style="margin-top:5px;">
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!--
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+            -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+    <div class="container-fluid text-center">
+      <div class="row content">
+        
+        <h2> Geographical exploration of my beer tastes</h2>
+
+        <p>
+            I started this small web project as a weekend project, while enjoying my favorite beer <a href="https://untappd.com/b/new-holland-brewing-company-dragon-s-milk/123662" target="_blank">Dragon's Milk</a> from New Holland brewing company. 
+        </p>
+
+        <p>
+            I have been using <a href="https://untappd.com/user/ovarol" target="_blank">untappd</a> more than a year and I like the app a lot. I have been logging my new experiences with different variety of beers. 
+        </p>
+
+        <p>
+            I have been also exploring some of my beer preferences in my <a href="https://github.com/onurvarol/my_beer_exploration" target="_blank">Github repo</a>. <a href="https://github.com/onurvarol/my_beer_exploration/blob/master/untappd_analysis.ipynb" target="_blank">This</a> Ipython notebook contains some exploratory analysis of my unique beers.
+        </p>
+
+        <br/>
+        <br/>
+        <h3>Happy drinking!</h3>
+        <img src="images/beer_logo.png" width="150px"/>
+
+      </div>
+    </div>
+
+    <!--
+    <footer class="container-fluid text-center">
+      <p>2016</p>
+    </footer>
+    -->
+
+</body>
+
+</html>
