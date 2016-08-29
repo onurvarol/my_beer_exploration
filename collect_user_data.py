@@ -31,6 +31,6 @@ if __name__ == '__main__':
         else:
             break
 
-    with open('data/{}_untappd_data.json'.format(parameters.username),'w') as fl:
+    with open('docs/data/{}_untappd_data.json'.format(parameters.username),'w') as fl:
         fl.write(json.dumps({'user_data':userData, 'beer_data':uniqueBeers}))
 
