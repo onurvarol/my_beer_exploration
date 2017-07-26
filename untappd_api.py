@@ -8,7 +8,7 @@ Author - Mackenzie Marshall <mackenziemarshall.com>
 
 import json
 import urllib
-import urllib2
+import urllib3
 
 
 class api:
@@ -62,9 +62,9 @@ class api:
         if params:
             params = urllib.urlencode(params)
             url = url + "&" + params
-            response = urllib2.urlopen(url).read()
+            response = urllib3.urlopen(url).read()
         else:
-            response = urllib2.urlopen(url).read()
+            response = urllib3.urlopen(url).read()
 
         return json.loads(response)
 
@@ -79,7 +79,7 @@ class api:
         """
         url = self.url + method + "?" + auth
         params = urllib.urlencode(params)
-        response = urllib2.urlopen(url, params).read()
+        response = urllib3.urlopen(url, params).read()
 
         return json.loads(response)
 

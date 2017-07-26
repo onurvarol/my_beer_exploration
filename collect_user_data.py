@@ -24,9 +24,9 @@ if __name__ == '__main__':
         resp = api.user_distinct_beers(parameters.username, offset=count)['response']
         count += resp['beers']['count']
         uniqueBeers.extend(resp['beers']['items'])
-        print 'Unique beers collected: {}'.format(len(uniqueBeers))
+        print('Unique beers collected: {}'.format(len(uniqueBeers)))
         scanCount += 1
-        if resp['beers']['count'] <> 0:
+        if resp['beers']['count'] != 0:
             time.sleep(1)
         else:
             break
