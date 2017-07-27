@@ -8,7 +8,10 @@ Author - Mackenzie Marshall <mackenziemarshall.com>
 
 import json
 import urllib
-import urllib3
+import urllib.request
+#import urllib2
+
+
 
 
 class api:
@@ -60,11 +63,11 @@ class api:
         url = self.url + method + "?" + auth
 
         if params:
-            params = urllib.urlencode(params)
+            params = urllib.parse.urlencode(params)
             url = url + "&" + params
-            response = urllib3.urlopen(url).read()
+            response = urllib.request.urlopen(url).read()
         else:
-            response = urllib3.urlopen(url).read()
+            response = urllib.request.urlopen(url).read()
 
         return json.loads(response)
 
@@ -78,8 +81,8 @@ class api:
             params = Params for the API request
         """
         url = self.url + method + "?" + auth
-        params = urllib.urlencode(params)
-        response = urllib3.urlopen(url, params).read()
+        params = urllib.parse.urlencode(params)
+        response = urllib.request.urlopen(url, params).read()
 
         return json.loads(response)
 
