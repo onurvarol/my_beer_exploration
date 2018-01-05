@@ -17,6 +17,7 @@
         <script src="js/typeahead.bundle.min.js"></script>
         <script src="js/typeahead.jquery.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="js/markerclusterer.js"></script>
 
         <link href="js/themes/default/style.min.css" rel="stylesheet" />
 
@@ -93,7 +94,10 @@
             var infowindow = new google.maps.InfoWindow();
             var markerOptions = {icon: "images/beer_logo.png",
                                  visible: false};
+
             var map;
+            var markerCluster;
+
             function drawMap(){
                 var center = new google.maps.LatLng(30, 0);
                 var mapOptions = {
@@ -239,6 +243,7 @@
             }
 
             function fillBeerMap(){
+                var markers = [];
                 var bounds = new google.maps.LatLngBounds();
                 for (var key in brewTree){
                     var brewery = breweryDict[key];
@@ -251,6 +256,7 @@
                           map: map
                         });
 
+                    markers.push(marker);
                     bounds.extend(marker.getPosition());
                     google.maps.event.addListener(marker, 'click', (function(marker, brewery) {
                         return function() {
@@ -259,6 +265,7 @@
                         };
                     })(marker, brewery));
                 }
+                markerCluster = new MarkerClusterer(map, markers, {imagePath: 'images/m'});
                 map.fitBounds(bounds);
             };
 
